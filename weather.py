@@ -10,3 +10,8 @@ print(data)
 pretty_data=json.dumps(data,indent=4)
 print(pretty_data)
 
+D = data["weather"][0]["description"]
+print(D)
+
+
+
