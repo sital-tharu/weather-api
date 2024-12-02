@@ -11,7 +11,9 @@ pretty_data=json.dumps(data,indent=4)
 print(pretty_data)
 
 D = data["weather"][0]["description"]
-print(D)
+T = data["main"]["temp"]
+
+print(f'The Current Weather Description is :{D} & Temp. is :{T}')
 
 
 
